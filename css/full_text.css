@@ -1,0 +1,54 @@
+/* .show-half {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 50%;
+} */
+/* 
+.show-full {
+  display: block;
+  width: auto;
+} */
+
+.show-full {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  text-align: justify;
+  margin: 0 auto;
+  max-width: 700px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: box-shadow 0.3s ease;
+}
+
+.show-full br {
+  content: "";
+  display: block;
+  margin-top: 10px;
+}
+
+.show-full_2 {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  text-align: justify;
+  margin: 25px auto;
+  max-width: 700px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: box-shadow 0.3s ease;
+}
+
+.show-full:hover {
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 255, 0.2); /* Apply glow on hover */
+}
+
+.show-full_2:hover {
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 255, 0.2); /* Apply glow on hover */
+}

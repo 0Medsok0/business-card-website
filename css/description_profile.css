@@ -1,0 +1,35 @@
+.profile-description {
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  width: 25%;
+  height: 37%;
+  position: absolute;
+  bottom: 17.5%;
+  transition: box-shadow 0.3s ease; /* Add transition for smooth shadow effect */
+}
+
+.profile-description h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.profile-description p {
+  margin-bottom: 10px;
+}
+
+.profile-description a {
+  color: #007bff; /* Blue color */
+  text-decoration: none;
+}
+
+.profile-description a:hover {
+  text-decoration: underline;
+}
+
+.profile-description:hover {
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 255, 0.2); /* Apply glow on hover */
+}
